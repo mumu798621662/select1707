@@ -1,0 +1,31 @@
+new Vue({
+    el:"#root",
+    data:{
+        datas:[
+            {
+                id:1,
+                title:'asdasdasd'
+            },
+            {
+                id:2,
+                title:'retrhg'
+            },
+            {
+                id:3,
+                title:'jkjkhjk'
+            }
+        ],
+        state:false,
+        title:""
+    },
+    methods:{
+        aa(){
+            this.state=true;
+        },
+        bb(val){
+            this.title=val;
+            this.state=false;
+        }
+    }
+
+})
